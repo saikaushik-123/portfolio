@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sai kaushik - Portfolio</title>
+    <style>
+        
+        
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #f0f0f0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: color 0.3s ease-in-out;
+        }
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            margin: 80px auto;
+            width: 50%;
+            border-radius: 15px;
+            padding: 50px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            backdrop-filter: blur(10px);
+        }
+        .profile-section:hover {
+            transform: scale(1.05);
+        }
+        .profile-pic {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #ffcc00;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            object-fit: cover;
+        }
+        .profile-pic:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 15px rgba(255, 204, 0, 0.5);
+        }
+        .intro {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .intro p {
+            margin: 10px 0;
+            transition: color 0.3s ease-in-out;
+        }
+        .intro p:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="personal.html">Personal Details</a>
+        <a href="education.html">Education Details</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact details</a>
+    </div>
+    
+    <div class="profile-section">
+        <img src="C:\Users\MV Sai Kaushik\Downloads\me.jpg" alt="sai kaushik" class="profile-pic">
+        <div class="intro">
+            <p>Hello, I'm sai kaushik!</p>
+            <p>A driven Computer Science enthusiast, passionate about AI and innovation.</p>
+        </div>
+    </div>
+</body>
+</html>
